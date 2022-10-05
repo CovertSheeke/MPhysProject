@@ -1,0 +1,37 @@
+---------
+4th Oct
+Rundown
+
+-Got access to noether
+-Got familiar with pulling galaxy population properties
+-Still only using copy pastes of other people's code
+-Made plots of:
+    -Galaxy mass histogram at different redshift (why the low mass cutoff? intrinsic or observational/algorithmic)
+    - BH Mass v Vel Disp (not linear on log-log as expected, is this a simulation issue?)
+    - Metallicity v M* (good slope, too negative after the knee)
+    - M* v M_DM-halo (looks about right when compared to eagle, and observation)
+    - mass of a subhalo undergoing mergers
+-When making 2dhist include array of bin edges (log data should be logged outside of plot)
+    
+-----------
+5th Oct
+Goals
+
+Mergers:
+    -merger information from progenitors and descendents
+    -merger statistics for the population
+
+Git
+    -setup and backup at end of the day
+
+#########
+Notes:
+- hubble constant 'little h' in units of [100 km/s/Mpc]	0.704
+- always include units with data grabs
+- always manipulate graph separately to data manipulation + data grab or all in the same cell
+
+#########
+Rundown
+
+-had trouble with h5py locking, edited the illustris library files as the normal .bashrc fix wasn't doing anything
+
