@@ -29,9 +29,26 @@ Notes:
 - hubble constant 'little h' in units of [100 km/s/Mpc]	0.704
 - always include units with data grabs
 - always manipulate graph separately to data manipulation + data grab or all in the same cell
+- Git access code: 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
 
 #########
 Rundown
 
 -had trouble with h5py locking, edited the illustris library files as the normal .bashrc fix wasn't doing anything
+-tried to understand merger tree information
+-managed to pull for one tree the masses of progenitors, not hugely useful yet
+
+---------
+6th Oct
+Goals
+
+- Discuss merger trees with Carolin and Mathilde
+
+#########
+Notes:
+
+#########
+Rundown
+
+
 
